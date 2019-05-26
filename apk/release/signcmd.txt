@@ -1,0 +1,1 @@
+C:\Program Files\Java\jdk1.8.0_11\bin>jarsigner -keystore aklotski.keystore -signedjar e:\tap_signed.apk tap_unsign.apk  »ªÈÝµÀ  -verbose

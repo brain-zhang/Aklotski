@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="120dp"
+    android:background="@drawable/boardbackground_body"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/text_levelup_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="@string/levelup"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="50"
+            android:background="@drawable/button_background_mini"
+            android:clickable="true"
+            android:text="@string/yes"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_no"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="50"
+            android:background="@drawable/button_background_mini"
+            android:clickable="true"
+            android:text="@string/no"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    
+</LinearLayout>

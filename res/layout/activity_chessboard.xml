@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/chessboard_main"
+    android:windowNoTitle="true"  
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/boardbackground" >
+    
+    <LinearLayout
+    android:id="@+id/upper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	    <RelativeLayout
+	    android:id="@+id/header"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="65"
+	    android:orientation="horizontal"
+	    android:background="@drawable/boardbackground_title" >
+		    
+		    <Button
+	            android:id="@+id/btn_backgruound_muisc"
+	            android:layout_width="60dp"
+	            android:layout_height="50dp"
+	            android:layout_marginTop="5dp"
+	            android:layout_marginRight="15dp"	            
+				android:layout_alignParentRight="true"
+	            android:background="@drawable/button_bmusic_enable"
+	            android:clickable="true"
+	            android:textStyle="bold" />	    
+	        
+		</RelativeLayout>
+		
+	    <LinearLayout
+	    android:id="@+id/body"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="370"
+	    android:orientation="horizontal" >
+		    <ImageView 
+		        android:id="@+id/chessboard_left_border"
+		        android:layout_width="wrap_content"
+		        android:layout_height="match_parent"
+		        android:layout_weight="17"
+		        android:orientation="vertical"
+		        android:background="@drawable/boardbackground_left_border" >	    
+		    </ImageView>
+		    <RelativeLayout 
+		        android:id="@+id/chessboard_body"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:layout_weight="296"
+		        android:orientation="vertical" >	    
+		    </RelativeLayout>    
+		   	<ImageView 
+		        android:id="@+id/chessboard_right_border"
+		        android:layout_width="wrap_content"
+		        android:layout_height="match_parent"
+		        android:layout_weight="17"
+		        android:orientation="vertical"
+		        android:background="@drawable/boardbackground_right_border" >	    
+		    </ImageView>  
+		</LinearLayout>
+	    
+	    <LinearLayout
+	    android:id="@+id/bottom"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="45"
+	    android:orientation="horizontal"
+	    android:background="@drawable/boardbackground_bottom" >
+		</LinearLayout>
+		
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:id="@+id/downer"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:windowIsTranslucent="true"
+	    android:orientation="vertical" >
+	</LinearLayout>
+</LinearLayout>
