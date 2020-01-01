@@ -23,7 +23,7 @@
 
 https://play.google.com/store/apps/details?id=me.happy123.aklotski
 
-* 百度应用地址:
+* APK :
 
-http://shouji.baidu.com/game/item?docid=7547918
+https://github.com/memoryboxes/Aklotski/files/3219992/Aklotski1.0.0.zip
 
